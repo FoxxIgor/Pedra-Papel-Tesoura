@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color:rgb(71, 66, 36);
+  background-color: rgb(242, 221, 102);
+  text-align: center;
+}
+
+canvas {
+  border: 3px solid rgb(71, 66, 36);
+  border-radius: 15px;
+  margin-top: 40px;
+}
+.header{
+  background-color: rgb(222, 199, 70);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pedra1, #pedra2{
+  background-image: url("imagens/pedra.png");
+}
+#papel1, #papel2{
+  background-image: url("imagens/papel.png");
+}
+#tesoura1, #tesoura2{
+  background-image: url("imagens/tesoura.png");
+}
+.jogador1{
+  position: absolute;
+  left: 60px;
+  margin-top: 30px;
+}
+.jogador2{
+  position: absolute;
+  right: 60px;
+  margin-top: 30px;
+}
+
+.buttons{
+  background-color: rgb(222, 199, 70);
+  border: 3px solid rgb(123, 113, 56);
+  border-radius: 15px;
+  width: 100px;
+  height:90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer{
+  position: absolute;
+  background-color: rgba(222, 199, 70, 0.682);
+  width: 100%;
+  bottom:0px;
+}
